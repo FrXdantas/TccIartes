@@ -83,6 +83,7 @@ Para garantir que você tenha um ambiente seguro e isolado, recomendamos o uso d
 2.1 As configurações estão nesse parâmetro inicial, podedendo ser adequada ao seu projeto.
 
 ```bash
+
     MAX_LENGTH = 30
     THRESHOLD = 0.03
     TARGET = 5
