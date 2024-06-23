@@ -2,9 +2,9 @@
 # Iartes - Sistema para TCC - SPTCC Versão 2.0
 
 ## Descrição
-Este projeto para TCC Iartes - 2023 - É uma ferramenta que estuda o geramento de legendas de imagens, gerando mapas de saliência usando uma rede neural pré-treinada ResNet, sua maior contribuição é a forma rápida de observar o foco de atenção de redes neurais pré treinadas.
+Este projeto, parte do TCC Iartes - 2023, é uma ferramenta que estuda a geração de legendas de imagens, gerando mapas de saliência usando uma rede neural pré-treinada ResNet. Sua maior contribuição é a forma rápida de observar o foco de atenção de redes neurais pré-treinadas.
 
-## Estruturação do Projeto
+## Estrutura do Projeto
 
 ```plaintext
 project/
@@ -31,7 +31,7 @@ project/
 
 ## Configuração do Ambiente Virtual
 
-Para garantir que você tenha um ambiente seguro e isolado, recomendamos o uso de um ambiente virtual (venv).
+Para garantir um ambiente seguro e isolado, recomendamos o uso de um ambiente virtual (venv).
 
 ### Passos para criar e ativar um ambiente virtual
 
@@ -62,7 +62,7 @@ Para garantir que você tenha um ambiente seguro e isolado, recomendamos o uso d
 1. Clone este repositório:
     ```bash
     git clone https://github.com/FrXdantas/TccIartes.git
-    cd  TccIartes
+    cd TccIartes
     ```
 
 2. Certifique-se de que o ambiente virtual esteja ativado e instale as dependências:
@@ -74,15 +74,9 @@ Para garantir que você tenha um ambiente seguro e isolado, recomendamos o uso d
 
 1. Coloque as imagens que você deseja processar no diretório `img_entrada`.
 
-2. Com um editor abra o config.py e altere as configurações:
- 
- ```bash
-    python config.py
-    ```
+2. Abra o arquivo `config.py` com um editor de texto e altere as configurações conforme necessário:
 
-2.1 As configurações estão nesse parâmetro inicial, podedendo ser adequada ao seu projeto.
-
-```plaintext
+    ```plaintext
     MAX_LENGTH = 30
     THRESHOLD = 0.03
     TARGET = 5
@@ -103,8 +97,8 @@ Para garantir que você tenha um ambiente seguro e isolado, recomendamos o uso d
 
 ## Estrutura de Diretórios
 
-- `img_entrada/`: < - Coloque imagens aqui.
-- `img_saida/`: <- As imagens processadas e os arquivos de saída serão salvos aqui.
+- `img_entrada/`: Diretório onde você deve colocar as imagens a serem processadas.
+- `img_saida/`: Diretório onde as imagens processadas e os arquivos de saída serão salvos.
 
 ## Autor
 
