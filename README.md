@@ -61,8 +61,8 @@ Para garantir que você tenha um ambiente seguro e isolado, recomendamos o uso d
 
 1. Clone este repositório:
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
-    cd seu-repositorio
+    git clone https://github.com/FrXdantas/TccIartes.git
+    cd  TccIartes
     ```
 
 2. Certifique-se de que o ambiente virtual esteja ativado e instale as dependências:
@@ -74,19 +74,40 @@ Para garantir que você tenha um ambiente seguro e isolado, recomendamos o uso d
 
 1. Coloque as imagens que você deseja processar no diretório `img_entrada`.
 
-2. Execute o script principal:
+2. Com um editor abra o config.py e altere as configurações:
+ 
+ ```bash
+    python config.py
+    ```
+
+2.1 As configurações estão nesse parâmetro inicial, podedendo ser adequada ao seu projeto.
+
+```bash
+    MAX_LENGTH = 30
+    THRESHOLD = 0.03
+    TARGET = 5
+    ALPHA = 1.5
+    BETA = 0
+    FONT_PATH = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+    FONT_SIZE = 12
+    COLOR_MAP = cv2.COLORMAP_RAINBOW
+    OUTPUT_BASE_DIR = "/home/project/TccIartes/img_saida/"
+    ```
+
+3. Execute o script principal:
     ```bash
     python main.py
     ```
 
-3. As saídas, incluindo legendas originais, legendas traduzidas e mapas de saliência, serão salvas no diretório `img_saida`.
+4. As saídas, incluindo legendas originais, legendas traduzidas e mapas de saliência, serão salvas no diretório `img_saida`.
 
 ## Estrutura de Diretórios
 
-- `img_entrada/`: Coloque suas imagens aqui.
-- `img_saida/`: As imagens processadas e os arquivos de saída serão salvos aqui.
+- `img_entrada/`: < - Coloque imagens aqui.
+- `img_saida/`: <- As imagens processadas e os arquivos de saída serão salvos aqui.
 
 ## Autor
+
 - Franklin Dantas - Grupo 8 - Iartes / UFAM
 
 ## Licença
