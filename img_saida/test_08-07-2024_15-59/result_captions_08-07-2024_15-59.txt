@@ -1,0 +1,68 @@
+IARTES - UFAM
+Teste Atenção por Saliência feito em: 08-07-2024 15:59:44
+
+Com as seguintes imagens:
+	img_13.jpg
+	img_09.jpeg
+	img_05.jpg
+	img_04.jpg
+	img_11.jpg
+	img_12.jpg
+
+Como resultados temos a comparação:
+
+Legenda do arquivo TXT
+img_13.jpg: Roses bouquet
+Legendas Geradas pela IA
+img_13.jpg: a bouquet of red roses in a vase
+Temos 1 acertos
+Temos 1 erros
+Gerando uma acuracia de 50.00% entre as legendas.
+
+Legenda do arquivo TXT
+img_09.jpeg: Police approaching 3 people and searching.
+Legendas Geradas pela IA
+img_09.jpeg: police officers check a man's body after he was shot in the back of a car in the town of san
+Temos 0 acertos
+Temos 6 erros
+Gerando uma acuracia de 0.00% entre as legendas.
+
+Legenda do arquivo TXT
+img_05.jpg: a car parked in front of a house
+Legendas Geradas pela IA
+img_05.jpg: a car parked in front of a house
+Temos 8 acertos
+Temos 0 erros
+Gerando uma acuracia de 100.00% entre as legendas.
+
+Legenda do arquivo TXT
+img_04.jpg: a mouse looking at the camera
+Legendas Geradas pela IA
+img_04.jpg: a rat looking up at the camera
+Temos 5 acertos
+Temos 1 erros
+Gerando uma acuracia de 83.33% entre as legendas.
+
+Legenda do arquivo TXT
+img_11.jpg: A boy playing video games
+Legendas Geradas pela IA
+img_11.jpg: a man sitting on a couch holding a remote control
+Temos 0 acertos
+Temos 5 erros
+Gerando uma acuracia de 0.00% entre as legendas.
+
+Legenda do arquivo TXT
+img_12.jpg: Two people fighting in traffic
+Legendas Geradas pela IA
+img_12.jpg: a man is walking across the street in front of a van
+Temos 1 acertos
+Temos 4 erros
+Gerando uma acuracia de 20.00% entre as legendas.
+
+Porcentagens de Saliência:
+img_13.jpg: 6.15%
+img_09.jpeg: 12.22%
+img_05.jpg: 10.45%
+img_04.jpg: 4.76%
+img_11.jpg: 22.43%
+img_12.jpg: 5.21%

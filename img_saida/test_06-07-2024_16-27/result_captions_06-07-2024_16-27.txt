@@ -1,0 +1,18 @@
+IARTES - UFAM
+Teste Atenção por Saliência feito em: 06-07-2024 16:27:49
+
+Com as seguintes imagens:
+	img_09.jpeg
+
+Como resultados temos a comparação:
+
+Legenda do arquivo TXT
+img_09.jpeg: the cop check a man's body afters he was smille in the back of a car in the town of san
+Legendas Geradas pela IA
+img_09.jpeg: police officers check a man's body after he was shot in the back of a car in the town of san
+Temos 17 acertos
+Temos 4 erros
+Gerando uma acuracia de 80.95% entre as legendas.
+
+Porcentagens de Saliência:
+img_09.jpeg: 12.22%
